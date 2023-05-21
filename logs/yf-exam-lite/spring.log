@@ -1,0 +1,129 @@
+2023-03-02 09:08:40.308  INFO 24424 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : Starting ZxtkxtApplication on DESKTOP-M7K81H2 with PID 24424 (D:\SpringBootCode\bysj\zxtkxt\target\classes started by 86159 in D:\SpringBootCode\bysj)
+2023-03-02 09:08:40.319  INFO 24424 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : No active profile set, falling back to default profiles: default
+2023-03-02 09:08:40.355  INFO 24424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 09:08:40.356  INFO 24424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 09:08:41.339  INFO 24424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-03-02 09:08:41.345  INFO 24424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-02 09:08:41.345  INFO 24424 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-03-02 09:08:41.347  INFO 24424 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2023-03-02 09:08:41.348  INFO 24424 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-03-02 09:08:41.348  INFO 24424 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-02 09:08:41.359  INFO 24424 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2023-03-02 09:08:41.427  INFO 24424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-02 09:08:41.427  INFO 24424 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1071 ms
+2023-03-02 09:08:41.542  INFO 24424 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-03-02 09:08:41.631  INFO 24424 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-03-02 09:08:42.308  INFO 24424 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-02 09:08:42.363  INFO 24424 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-03-02 09:08:42.462  INFO 24424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-02 09:08:42.497  INFO 24424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-02 09:08:42.499  INFO 24424 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : Started ZxtkxtApplication in 2.519 seconds (JVM running for 3.253)
+2023-03-02 09:08:42.502  INFO 24424 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : 
+----------------------------------------------------------
+	在线题库系统启动成功，访问路径如下:
+	本地路径: 		http://localhost:8088/
+	网络地址: 	http://192.168.137.1:8088/
+	API文档: 		http://192.168.137.1:8088/doc.html
+----------------------------------------------------------
+2023-03-02 09:18:02.258  INFO 24424 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 09:18:02.258  INFO 24424 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-02 09:18:02.263  INFO 24424 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-03-02 09:22:09.960  WARN 24424 --- [http-nio-8088-exec-8] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/zxtk_db?useSSL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true, version : 1.2.5, lastPacketReceivedIdleMillis : 187106
+2023-03-02 11:19:51.195  WARN 24424 --- [http-nio-8088-exec-2] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/zxtk_db?useSSL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true, version : 1.2.5, lastPacketReceivedIdleMillis : 259966
+2023-03-02 14:57:18.511  WARN 24424 --- [http-nio-8088-exec-8] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/zxtk_db?useSSL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true, version : 1.2.5, lastPacketReceivedIdleMillis : 768303
+2023-03-02 16:42:13.445  INFO 24424 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-02 16:42:13.449  INFO 24424 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-03-02 16:42:13.453  INFO 24424 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-03-02 16:44:03.434  INFO 7616 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : Starting ZxtkxtApplication on DESKTOP-M7K81H2 with PID 7616 (D:\SpringBootCode\bysj\zxtkxt\target\classes started by 86159 in D:\SpringBootCode\bysj)
+2023-03-02 16:44:03.437  INFO 7616 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : No active profile set, falling back to default profiles: default
+2023-03-02 16:44:03.477  INFO 7616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 16:44:03.477  INFO 7616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 16:44:04.478  INFO 7616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-03-02 16:44:04.488  INFO 7616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-02 16:44:04.488  INFO 7616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-03-02 16:44:04.491  INFO 7616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2023-03-02 16:44:04.492  INFO 7616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-03-02 16:44:04.492  INFO 7616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-02 16:44:04.496  INFO 7616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2023-03-02 16:44:04.589  INFO 7616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-02 16:44:04.589  INFO 7616 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1112 ms
+2023-03-02 16:44:04.742  INFO 7616 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-03-02 16:44:04.839  INFO 7616 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-03-02 16:44:05.591  INFO 7616 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-02 16:44:05.659  INFO 7616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-03-02 16:44:05.778  INFO 7616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-02 16:44:05.822  INFO 7616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-02 16:44:05.825  INFO 7616 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : Started ZxtkxtApplication in 2.725 seconds (JVM running for 3.505)
+2023-03-02 16:44:05.828  INFO 7616 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : 
+----------------------------------------------------------
+	在线题库系统启动成功，访问路径如下:
+	本地路径: 		http://localhost:8088/
+	网络地址: 	http://192.168.137.1:8088/
+	API文档: 		http://192.168.137.1:8088/doc.html
+----------------------------------------------------------
+2023-03-02 16:45:15.693  INFO 7616 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-02 16:45:15.694  INFO 7616 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-02 16:45:15.699  INFO 7616 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-03-02 17:08:45.583  INFO 7616 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-02 17:08:45.588  INFO 7616 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-03-02 17:08:45.602  INFO 7616 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-03-02 17:34:16.429  INFO 9372 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : Starting ZxtkxtApplication on DESKTOP-M7K81H2 with PID 9372 (D:\SpringBootCode\bysj\zxtkxt\target\classes started by 86159 in D:\SpringBootCode\bysj)
+2023-03-02 17:34:16.431  INFO 9372 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : No active profile set, falling back to default profiles: default
+2023-03-02 17:34:16.460  INFO 9372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 17:34:16.460  INFO 9372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 17:34:17.284  INFO 9372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-03-02 17:34:17.290  INFO 9372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-02 17:34:17.290  INFO 9372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-03-02 17:34:17.292  INFO 9372 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2023-03-02 17:34:17.292  INFO 9372 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-03-02 17:34:17.292  INFO 9372 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-02 17:34:17.294  INFO 9372 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2023-03-02 17:34:17.351  INFO 9372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-02 17:34:17.351  INFO 9372 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 890 ms
+2023-03-02 17:34:17.444  INFO 9372 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-03-02 17:34:17.505  INFO 9372 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-03-02 17:34:18.116  INFO 9372 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-02 17:34:18.168  INFO 9372 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-03-02 17:34:18.262  INFO 9372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-02 17:34:18.297  INFO 9372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-02 17:34:18.300  INFO 9372 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : Started ZxtkxtApplication in 2.14 seconds (JVM running for 2.724)
+2023-03-02 17:34:18.303  INFO 9372 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : 
+----------------------------------------------------------
+	在线题库系统启动成功，访问路径如下:
+	本地路径: 		http://localhost:8088/
+	网络地址: 	http://192.168.137.1:8088/
+	API文档: 		http://192.168.137.1:8088/doc.html
+----------------------------------------------------------
+2023-03-02 17:41:26.571  INFO 9372 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-02 17:41:26.572  INFO 9372 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-03-02 17:41:26.573  INFO 9372 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-03-02 17:50:11.841  INFO 3580 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : Starting ZxtkxtApplication on DESKTOP-M7K81H2 with PID 3580 (D:\SpringBootCode\bysj\zxtkxt\target\classes started by 86159 in D:\SpringBootCode\bysj)
+2023-03-02 17:50:11.844  INFO 3580 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : No active profile set, falling back to default profiles: default
+2023-03-02 17:50:11.875  INFO 3580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-02 17:50:11.876  INFO 3580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-02 17:50:12.703  INFO 3580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-03-02 17:50:12.708  INFO 3580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-02 17:50:12.709  INFO 3580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2023-03-02 17:50:12.711  INFO 3580 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2023-03-02 17:50:12.711  INFO 3580 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-03-02 17:50:12.711  INFO 3580 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-03-02 17:50:12.714  INFO 3580 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2023-03-02 17:50:12.776  INFO 3580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-02 17:50:12.777  INFO 3580 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 901 ms
+2023-03-02 17:50:12.892  INFO 3580 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-03-02 17:50:12.960  INFO 3580 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-03-02 17:50:13.614  INFO 3580 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-02 17:50:13.670  INFO 3580 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-03-02 17:50:13.766  INFO 3580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-02 17:50:13.803  INFO 3580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-03-02 17:50:13.805  INFO 3580 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : Started ZxtkxtApplication in 2.268 seconds (JVM running for 2.974)
+2023-03-02 17:50:13.807  INFO 3580 --- [restartedMain] com.example.zxtkxt.ZxtkxtApplication     : 
+----------------------------------------------------------
+	在线题库系统启动成功，访问路径如下:
+	本地路径: 		http://localhost:8088/
+	网络地址: 	http://192.168.137.1:8088/
+	API文档: 		http://192.168.137.1:8088/doc.html
+----------------------------------------------------------
+2023-03-02 17:51:01.861  INFO 3580 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-02 17:51:01.861  INFO 3580 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-03-02 17:51:01.862  INFO 3580 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

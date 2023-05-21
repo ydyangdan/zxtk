@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>登录-在线题库系统</title>
+    <script src="./js/vue.js"></script>
+    <link rel="stylesheet" href="./css/element-ui_index.css">
+    <!-- 引入组件库 -->
+    <script src="./js/element-ui_lib_index.js"></script>
+</head>
+
+<style>
+    #cc{
+        border: 2px solid #1d6fbd;
+        width: 40%;
+        margin: auto;
+        margin-top:100px;
+        padding: 10px;
+    }
+    .aq{
+        display: inline-block;
+    }
+    .form-control{
+        width: 200px;
+    }
+    .fo{
+        text-align: center;
+        border-bottom: 2px solid #1d6fbd;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+</style>
+<body background="images/login-bj.svg">
+<div id="cc">
+    <div class="fo">
+        <span style="color: #1d6fbd">在线题库系统</span>
+    </div>
+    <form id="form" class="form-horizontal" action="login">
+        <div class="form-group" >
+           <label>&nbsp;&nbsp;&nbsp;账 号：</label>
+            <el-input v-model="name" placeholder="请输入账号"  type="text" style="width: 400px" id="inputName"  name="name" ></el-input>
+            </br>
+            </br>
+            <label>&nbsp;&nbsp;&nbsp;密 码：</label>
+            <el-input v-model="password" placeholder="请输入密码" type="password" style="width: 400px" id="inputPassword"  name="password"></el-input></br>
+
+        </div>
+        </br>
+        <div class="form-group" style="height: 40px">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <el-radio-group v-model="radio">
+                    <el-radio :label="3">学生</el-radio>
+                    <el-radio :label="6">教师</el-radio>
+                    <el-radio :label="9">管理员</el-radio>
+                </el-radio-group>
+
+        </div>
+        <div class="form-group">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <el-button type="submit"  align-items: center id="sign" style="width: 100px">登 录</el-button>
+            <div style="display: flex; align-items: center; justify-content: flex-end">
+                <el-link type="primary" href="/user/register">立即注册</el-link>
+            </div>
+        </div>
+    </form>
+</div>
+<script>
+    // new Vue().$mount('#cc');
+    var Main = {
+        data () {
+            return {
+                radio: 3,
+                name:"",
+                password:""
+            };
+        }
+    }
+    var Ctor = Vue.extend(Main)
+    new Ctor().$mount('#cc')
+
+    document.getElementById("sign").onblur=checkName;
+    document.getElementById("inputName").onblur=checkName;
+    document.getElementById("inputPassword").onblur=checkPassword;
+    var code = document.getElementById("inputCode");
+    code.onblur=checkCode;
+
+    function checkName() {
+        var name = document.getElementById("inputName").value.trim();
+        var msg_name = document.getElementById("msg_name");
+        if(name.length>=3 && name.length<=8){
+            msg_name.innerHTML="√";
+            msg_name.style.color=" #3e8f3e";
+            msg_name.style.fontSize="30px"
+            return true;
+        }else {
+            msg_name.innerHTML="账号长度必须在3到8之间";
+            msg_name.style.color="red"
+            msg_name.style.fontSize="20px"
+            return false;
+        }
+    }
+    function checkPassword() {
+        var password = document.getElementById("inputPassword").value;
+        var msg_password = document.getElementById("msg_password");
+        var reg=/.{3,8}[A-z]+/;
+        var flag=reg.test(password);
+        if(flag){
+            msg_password.innerHTML="√";
+            msg_password.style.color=" #3e8f3e";
+            msg_password.style.fontSize="25px"
+            return true;
+        }else {
+            msg_password.innerHTML="密码长度必须在3到8之间,至少一个英文";
+            msg_password.style.color="red"
+            msg_password.style.fontSize="15px"
+            return false;
+        }
+    }
+    var form = document.getElementById("form");
+    form.onsubmit=function () {
+        var gg= checkCode()&checkPassword()&checkName();
+        if (!gg){
+            // location.reload();
+            return false;
+        }
+        return true
+    }
+</script>
+</body>
+</html>

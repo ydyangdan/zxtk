@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7721dff7-0f59-40eb-b934-d950f22ff32d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Swagger" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MEddGDuUMxlWKPfraMC2YFB5lG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zxtkxt_vue/public" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15820312" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\public" />
+      <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\src\views\teacher" />
+      <recent name="D:\SpringBootCode\bysj\zxtkxt\src\main\resources\static" />
+      <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\src\assets" />
+      <recent name="D:\SpringBootCode\bysj\zxtkxt\src\main\java\com\example\zxtkxt\core\exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\src\views\teacher" />
+      <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\src\views\student" />
+      <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\src\views\admin" />
+      <recent name="D:\SpringBootCode\bysj\zxtkxt_vue" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.zxtkxt" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.zxtkxt.mapper" />
+      <recent name="com.example.zxtkxt.pojo" />
+      <recent name="com.example.zxtkxt.common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZxtkxtApplication">
+    <configuration name="Ant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.zxtkxt.service.Ant" />
+      <module name="zxtkxt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zxtkxt.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoPaperService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.zxtkxt.service.AutoPaperService" />
+      <module name="zxtkxt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zxtkxt.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaperController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.zxtkxt.controller.PaperController" />
+      <module name="zxtkxt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zxtkxt.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="untitled" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZxtkxtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zxtkxt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zxtkxt.ZxtkxtApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="D:\SpringBootCode\bysj\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="D:\SpringBootCode\bysj\zxtkxt_vue\src\views\QueryCourse.yaml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/zxtkxt_vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ZxtkxtApplication" />
+      <item itemvalue="npm.serve" />
+      <item itemvalue="Application.Ant" />
+      <item itemvalue="Application.AutoPaperService" />
+      <item itemvalue="Application.PaperController" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+        <item itemvalue="Application.Ant" />
+        <item itemvalue="Application.PaperController" />
+        <item itemvalue="Application.AutoPaperService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7721dff7-0f59-40eb-b934-d950f22ff32d" name="Changes" comment="" />
+      <created>1677336768743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677336768743</updated>
+      <workItem from="1677336770007" duration="10673000" />
+      <workItem from="1677383380046" duration="404000" />
+      <workItem from="1677383825810" duration="128000" />
+      <workItem from="1677383964135" duration="425000" />
+      <workItem from="1677384405439" duration="10066000" />
+      <workItem from="1677397297836" duration="20499000" />
+      <workItem from="1677464677788" duration="33849000" />
+      <workItem from="1677649379985" duration="9236000" />
+      <workItem from="1677719246589" duration="13319000" />
+      <workItem from="1677748144766" duration="1233000" />
+      <workItem from="1677750142156" duration="27000" />
+      <workItem from="1677750566864" duration="96000" />
+      <workItem from="1677750760746" duration="278000" />
+      <workItem from="1677751145612" duration="597000" />
+      <workItem from="1677751993013" duration="31119000" />
+      <workItem from="1677899272129" duration="68533000" />
+      <workItem from="1678070645249" duration="22529000" />
+      <workItem from="1678157503903" duration="37521000" />
+      <workItem from="1678322490178" duration="8867000" />
+      <workItem from="1678343465191" duration="18102000" />
+      <workItem from="1678502263830" duration="18964000" />
+      <workItem from="1678525446351" duration="3333000" />
+      <workItem from="1678538104619" duration="670000" />
+      <workItem from="1678697899913" duration="984000" />
+      <workItem from="1678715738810" duration="1186000" />
+      <workItem from="1678868775314" duration="4648000" />
+      <workItem from="1678893173094" duration="723000" />
+      <workItem from="1678931510586" duration="126000" />
+      <workItem from="1678931652572" duration="1735000" />
+      <workItem from="1678935442069" duration="1506000" />
+      <workItem from="1679232697084" duration="14967000" />
+      <workItem from="1679479772029" duration="116000" />
+      <workItem from="1679490531739" duration="806000" />
+      <workItem from="1680762508204" duration="612000" />
+      <workItem from="1680764259045" duration="201000" />
+      <workItem from="1680791286791" duration="284000" />
+      <workItem from="1680791595059" duration="15573000" />
+      <workItem from="1681886151834" duration="18407000" />
+      <workItem from="1682068633920" duration="7244000" />
+      <workItem from="1682325479772" duration="146810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

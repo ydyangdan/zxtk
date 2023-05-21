@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./js/vue.js"></script>
+    <link rel="stylesheet" href="./css/element-ui_index.css">
+    <!-- 引入组件库 -->
+    <script src="./js/element-ui_lib_index.js"></script>
+</head>
+<style>
+    #app{
+        /*height: 600px;*/
+        width: 600px;
+        margin: auto;
+        /*margin-left: 20px;*/
+        margin-top: 40px;
+        padding-top: 20px;
+        /*padding-bottom: 20px;*/
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+    }
+</style>
+</head>
+<body>
+<div id="app">
+    <template>
+        <el-table
+                :data="tableData"
+                border
+                style="width: 100%">
+            <el-table-column
+                    prop="courseName"
+                    label="课程名称"
+                    width="200">
+            </el-table-column>
+
+            <el-table-column
+                    prop="courseScore"
+                    label="成绩"
+                    width="200">
+            </el-table-column>
+            <el-table-column
+                    prop="createTime"
+                    label="创建时间"
+                    show-overflow-tooltip>
+            </el-table-column>
+        </el-table>
+    </template>
+</div>
+<script>
+    var Main = {
+        data() {
+            return {
+                tableData: [{
+                    courseName: '王小虎',
+                    courseScore: '89',
+                    createTime: '2016-05-03'
+                }, {
+                    courseName: '李小虎',
+                    courseScore: '87',
+                    createTime: '2016-05-02',
+                }, {
+                    courseName: '胡小虎',
+                    courseScore: '95',
+                    createTime: '2016-05-09'
+                }],
+                multipleSelection: []
+            }
+        },
+
+        methods: {
+            toggleSelection(rows) {
+                if (rows) {
+                    rows.forEach(row => {
+                        this.$refs.multipleTable.toggleRowSelection(row);
+                    });
+                } else {
+                    this.$refs.multipleTable.clearSelection();
+                }
+            },
+            handleSelectionChange(val) {
+                this.multipleSelection = val;
+            }
+        }
+    }
+    var Ctor = Vue.extend(Main)
+    new Ctor().$mount('#app')
+</script>
+</body>
+</html>

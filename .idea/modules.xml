@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zxtkxt/zxtkxt.iml" filepath="$PROJECT_DIR$/zxtkxt/zxtkxt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxtkxt_vue/zxtkxt_vue.iml" filepath="$PROJECT_DIR$/zxtkxt_vue/zxtkxt_vue.iml" />
+    </modules>
+  </component>
+</project>

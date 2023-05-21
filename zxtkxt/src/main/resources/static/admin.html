@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>管理员—在线题库系统</title>
+    <script src="./js/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="./css/element-ui_index.css">
+    <!-- 引入组件库 -->
+    <script src="js/element-ui_lib_index.js"></script>
+    <script src="./js/axios.js"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    li{
+        list-style-type:none
+    }
+    a{
+        color: #ffffff;
+        text-decoration: none
+        /*text-align: center;*/
+    }
+    li:hover, li:focus {
+        text-decoration: none
+    }
+
+    .top{
+        width: 100%;
+        height: 50px;
+        background-color: #d7faed;
+        float: right;
+        text-align: center;
+        /*margin-bottom: 10px;*/
+        font-size: 30px;
+        /*padding-top: 10px;*/
+        /*padding-bottom: 10px;*/
+    }
+
+    #main{
+        display:inline-block;
+        width:1272px;
+        height:691px;
+        background-color: white;
+        float:left;
+        top: 100px;
+    }
+    #mIframe{
+        width:1272px;
+        height:100%;
+        font-size:60px;
+    }
+    .pm{
+        display: inline;
+    }
+    .pm2{
+        float: right;
+        font-size: 25px;
+        align-content: center;
+    }
+    .pm3{
+        width: 50px;
+        height: 50px;
+        float: right;
+        border-radius: 50%;
+    }
+    .el-menu-vertical-demo:not(.el-menu--collapse) {
+        width: 200px;
+        min-height: 400px;
+    }
+    #navigation{
+        height: 100%;
+        width: 150px;
+        float: left;
+    }
+    #navi{
+        height: 691px;
+        width: 200px;
+        float: left;
+        background-color: #4a5965;
+    }
+</style>
+<body>
+<div class="top"style="color: #1d6fbd">
+    <h3 align="center" class="pm pm1" >在线题库系统</h3>
+    <h4 class="pm pm2">&nbsp;&nbsp;ydyd&nbsp;&nbsp;&nbsp;</h4>
+    <img class="pm pm3" src="images/tiku.png">
+</div>
+<div id="navi">
+    <div id="navigation" >
+        <el-row class="tac">
+            <el-col :span="12">
+                <el-menu
+                        default-active="2"
+                        class="el-menu-vertical-demo"
+                        @open="handleOpen"
+                        @close="handleClose"
+                        background-color="#4a5965"
+                        text-color="#ffffff"
+                        active-text-color="#ffd04b">
+
+                    <el-submenu index="1">
+                        <template slot="title">
+                            <i class="el-icon-location"></i>
+                            <span>试题管理</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="1-1"><a href="/queryQuestion.html" target="mainIframe" >查询试题</a></el-menu-item>
+                            <el-menu-item index="1-2"><a href="/addQuestion.html" target="mainIframe" >上传试题</a></el-menu-item>
+                            <el-menu-item index="1-3"><a href="/j2eeYMRwork/table/lookInfo" target="mainIframe" >题库管理</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+
+                    <el-submenu index="2">
+                        <template slot="title">
+                            <i class="el-icon-menu"></i>
+                            <span>个人信息管理</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="1-1"><a href="/userInfo.html" target="mainIframe" >个人资料</a></el-menu-item>
+                            <el-menu-item index="1-2"><a href="/alterRole.html" target="mainIframe" >角色管理</a></el-menu-item>
+                            <el-menu-item index="1-3"><a href="/roleInfo.html" target="mainIframe" >用户管理</a></el-menu-item>
+                            <el-menu-item index="1-4"><a href="#" @click.prevent="logout" >退出登录</a></el-menu-item>
+                        </el-menu-item-group>
+
+                    </el-submenu>
+                </el-menu>
+            </el-col>
+        </el-row>
+    </div>
+</div>
+
+<div id='main'>
+    <iframe id="mIframe" name="mainIframe"  frameborder="0" scrolling="auto" >
+        <h1>欢迎!</h1>
+    </iframe>
+</div>
+<script type="text/javascript">
+    var Main = {
+        methods: {
+            handleOpen(key, keyPath) {
+                console.log(key, keyPath);
+            },
+            handleClose(key, keyPath) {
+                console.log(key, keyPath);
+            },
+            logout(){
+                alert("确定要退出？")
+                const $axios = axios.create({
+                    baseURL: 'http://localhost:8088'
+                });
+                $axios.post('/user/logout', {
+                    userName: "name",
+                }).then(response => {
+                    if (response.data.code==0){
+                        window.location.href=response.data.data;
+                    }else {
+                        alert(response.data.msg)
+                    }
+                    // 处理响应
+                }).catch(error => {
+                    // 处理错误
+                })
+            }
+        }
+    }
+    var Ctor = Vue.extend(Main)
+    new Ctor().$mount('#navigation')
+</script>
+</body>
+</html>
