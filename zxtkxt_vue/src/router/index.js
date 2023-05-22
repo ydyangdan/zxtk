@@ -116,13 +116,7 @@ const routes = [
         path: '/parameters',
         name: 'parameters',
         component:  () => import('@/views/admin/Parameters.vue')
-      },
-      {
-        path: '/questionBank',
-        name: 'questionBank',
-        component:  () => import('@/views/admin/QuestionBank.vue')
-      },
-
+      }
     ]
   },
   {

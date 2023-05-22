@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7721dff7-0f59-40eb-b934-d950f22ff32d" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zxtkxt_vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/zxtkxt_vue/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <recent name="com.example.zxtkxt.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZxtkxtApplication">
+  <component name="RunManager" selected="npm.serve">
     <configuration name="Ant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.zxtkxt.service.Ant" />
       <module name="zxtkxt" />
@@ -272,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684767338211</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1684767716388</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684767716388</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

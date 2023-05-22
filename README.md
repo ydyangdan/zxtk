@@ -4,7 +4,7 @@
 
 使用蚁群算法实现自动组卷。
 
-##技术选型
+## 技术选型
 前端：vue3,element plus。
 
 后端：spring boot、mybatis plus。
@@ -19,4 +19,4 @@
 
 # 前端页面
 教师主页面
-![教师主页面](./zxtkxt_vue/public/images/meinv1.jpg)
+![教师主页面](./zxtkxt_vue/public/images/zxtkxt_1.png)
