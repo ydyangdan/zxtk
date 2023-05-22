@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7721dff7-0f59-40eb-b934-d950f22ff32d" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/addQuestion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/alterRole.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/css/element-ui_index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/css/fonts/element-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/css/fonts/element-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/elementui.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/images/login-bj.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/images/tiger1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/images/tiku.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/js/axios.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/js/element-ui_lib_index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/js/vue.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/queryQuestion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/queryScore.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/roleInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/student.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/teacher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/test.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt/src/main/resources/static/userInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt_vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +67,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/zxtkxt_vue/public" />
