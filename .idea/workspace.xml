@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7721dff7-0f59-40eb-b934-d950f22ff32d" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7721dff7-0f59-40eb-b934-d950f22ff32d" name="Changes" comment="yd commit">
+      <change afterPath="$PROJECT_DIR$/zxtkxt_vue/src/views/teacher/LookAnswers.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zxtkxt/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/zxtkxt/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/zxtkxt/spring.log.2023-05-14.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zxtkxt_vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/zxtkxt_vue/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zxtkxt_vue/src/views/teacher/LookPaper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/zxtkxt_vue/src/views/teacher/LookPaper.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zxtkxt_vue/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zxtkxt_vue/public/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15820312" />
@@ -79,11 +83,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\public\images" />
       <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\public" />
       <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\src\views\teacher" />
       <recent name="D:\SpringBootCode\bysj\zxtkxt\src\main\resources\static" />
       <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\src\assets" />
-      <recent name="D:\SpringBootCode\bysj\zxtkxt\src\main\java\com\example\zxtkxt\core\exception" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SpringBootCode\bysj\zxtkxt_vue\src\views\teacher" />
@@ -280,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684767716388</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="yd commit">
+      <created>1684768341868</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684768341868</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +310,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="yd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="yd commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

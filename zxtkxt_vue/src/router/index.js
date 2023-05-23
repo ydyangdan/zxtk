@@ -92,6 +92,11 @@ const routes = [
         path: '/analysePaper',
         name: 'analysePaper',
         component:  () => import('@/views/teacher/AnalysePaper.vue')
+      },
+      {
+        path: '/lookAnswers',
+        name: 'lookAnswers',
+        component:  () => import('@/views/teacher/LookAnswers.vue')
       }
    ]
   },

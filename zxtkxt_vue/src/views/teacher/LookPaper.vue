@@ -51,6 +51,7 @@
         </div>
     </div>
     <el-button type="primary" @click="exportPDF" style="margin-left: 200px" plain>导出PDF</el-button>
+    <el-button type="primary" @click="lookAnswers" style="margin-left: 100px" plain>查看答案</el-button>
     <el-button type="primary"  style="margin-left: 100px" @click="analyse" plain> 试卷分析</el-button>
   </div>
 
@@ -59,7 +60,6 @@
 <script>
 import request from "@/utils/request";
 import {getPdf} from "@/utils/exportPdf";
-import echarts from "echarts";
 
 export default {
   name:'LookPaper',
@@ -167,6 +167,15 @@ export default {
       // 跳转到目标页面并带上参数
       this.$router.push({ path: '/analysePaper', query: { data:JSON.stringify({'resultPoint':resultPoint,'resultLevel':resultLevel,'paper':this.paper})}  });
     },
+    lookAnswers(){
+      // 跳转到目标页面并带上参数
+      this.$router.push({ path: '/lookAnswers', query: {
+        data:JSON.stringify(
+          {'choiceList':this.choiceList,'multiList':this.multiList,'blankList':this.blankList,'judgeList':this.judgeList,'shortList':this.shortList}
+        )}
+      });
+
+    }
 
   }
 }
