@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7721dff7-0f59-40eb-b934-d950f22ff32d" name="Changes" comment="yd commit">
-      <change afterPath="$PROJECT_DIR$/zxtkxt_vue/src/views/teacher/LookAnswers.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/zxtkxt/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/zxtkxt/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/zxtkxt/spring.log.2023-05-14.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt_vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/zxtkxt_vue/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zxtkxt_vue/src/views/teacher/LookPaper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/zxtkxt_vue/src/views/teacher/LookPaper.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684768341868</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="yd commit">
+      <created>1684816309984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684816309984</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
